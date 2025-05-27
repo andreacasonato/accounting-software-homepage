@@ -21,7 +21,7 @@ button {
 	font-family: inherit;
 }
 
-/* header */
+/* HEADER */
 .header {
 	display: flex;
 	/* justify-content: space-between; */
@@ -54,7 +54,7 @@ button {
 	justify-content: flex-end;
 }
 
-/* hero section */
+/* HERO SECTION */
 .hero {
 	text-align: center;
 	margin-top: 10rem;
@@ -75,7 +75,7 @@ button {
 	margin: 2rem auto;
 }
 
-/* pricing */
+/* PRICING */
 .pricing {
 	margin-top: 10rem;
 }
@@ -85,12 +85,14 @@ button {
 	letter-spacing: -0.05em;
 	line-height: 1;
 	margin-top: 5rem;
+	text-align: center;
 }
 
 .pricing__description {
 	font-size: 1.2rem;
 	max-width: 45ch;
-	margin: 1rem 0;
+	margin: 2rem auto;
+	text-align: center;
 }
 
 .pricing__container {
@@ -139,7 +141,7 @@ button {
 	color: #ccc;
 }
 
-/* features */
+/* FEATURES */
 .features {
 	text-align: center;
 }
@@ -179,7 +181,7 @@ button {
 	margin-top: 1rem;
 }
 
-/* contact */
+/* CONTACT */
 .contact {
 	text-align: center;
 }
@@ -197,7 +199,7 @@ button {
 	margin: 1rem auto;
 }
 
-/* footer */
+/* FOOTER */
 .footer {
 	text-align: center;
 }
@@ -213,7 +215,7 @@ button {
 	display: none;
 }
 
-/* utility class */
+/* UTILITY CLASS */
 .btn {
 	text-decoration: none;
 	display: inline-block;
@@ -228,7 +230,7 @@ button {
 	margin: 0 auto;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 
 @media (max-width: 891px) {
 	/* header section */
